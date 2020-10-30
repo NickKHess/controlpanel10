@@ -1,0 +1,66 @@
+Add a Device - %windir%\System32\DevicePairingWizard.exe
+Add Hardware - %windir%\System32\hdwwiz.exe
+Add a Printer - rundll32.exe shell32.dll,SHHelpShortcuts_RunDLL AddPrinter
+Additional Clocks - rundll32.exe shell32.dll,Control_RunDLL timedate.cpl,,1
+Administrative Tools - control admintools
+AutoPlay - control /name Microsoft.AutoPlay
+BitLocker Drive Encryption - control /name Microsoft.BitLockerDriveEncryption
+Color and Appearance - explorer shell:::{ED834ED6-4B5A-4bfe-8F11-A626DCB6A921} -Microsoft.Personalization\pageColorization
+Color Management - control /name Microsoft.ColorManagement
+Crediential Manager - control /name Microsoft.CredentialManager
+Date and Time - control date/time
+Default Programs - control /name Microsoft.DefaultPrograms
+Desktop Background - explorer shell:::{ED834ED6-4B5A-4bfe-8F11-A626DCB6A921} -Microsoft.Personalization\pageWallpaper
+Desktop Icon Settings - rundll32.exe shell32.dll,Control_RunDLL desk.cpl,,0
+Device Manager - devmgmt.msc
+Devices and Printers - control printers
+Ease of Access Center - control access.cpl
+File Explorer Options - control folders
+File History - control /name Microsoft.FileHistory
+Fonts - control fonts
+Game Controllers - control joy.cpl
+Get Programs - control /name Microsoft.GetPrograms
+HomeGroup - control /name Microsoft.HomeGroup
+Indexing Options - control /name Microsoft.IndexingOptions
+Infrared - control /name Microsoft.Infrared
+Internet Properties - control inetcpl.cpl
+iSCSI Initiator - control /name Microsoft.iSCSIInitiator
+Keyboard - control keyboard
+Language - control /name Microsoft.Language
+Mouse Properties - control mouse
+Network and Sharing Center - control /name Microsoft.NetworkAndSharingCenter
+Network Connections - control netconnections
+Network Setup - control netsetup.cpl
+Notification Area Icons - explorer shell:::{05d7b0f4-2121-4eff-bf6b-ed3f69b894d9}
+ODBC Data Source Administrator - control odbccp32.cpl
+Offline Files - control /name Microsoft.OfflineFiles
+Performance Options - %windir%\system32\SystemPropertiesPerformance.exe
+Personalization - explorer shell:::{ED834ED6-4B5A-4bfe-8F11-A626DCB6A921}
+Phone and Modem - control telephon.cpl
+Power Options - control powercfg.cpl
+Presentation Settings - %windir%\system32\PresentationSettings.exe
+Programs and Features - control appwiz.cpl
+Recovery - control /name Microsoft.Recovery
+Region - control intl.cpl
+RemoteApp and Desktop Connections - control /name Microsoft.RemoteAppAndDesktopConnections
+Scanners and Cameras - control sticpl.cpl
+Screen Saver Settings - rundll32.exe shell32.dll,Control_RunDLL desk.cpl,,1
+Security and Maintenance - control wscui.cpl
+Set Associations - control /name Microsoft.DefaultPrograms /page pageFileAssoc
+Set Default Programs - control /name Microsoft.DefaultPrograms /page pageDefaultProgram
+Sound - control mmsys.cpl
+Speech Recognition - control /name Microsoft.SpeechRecognition
+Storage Spaces - control /name Microsoft.StorageSpaces
+Sync Center - control /name Microsoft.SyncCenter
+System - control sysdm.cpl
+System Icons - explorer shell:::{05d7b0f4-2121-4eff-bf6b-ed3f69b894d9} \SystemIcons,,0
+System Properties - %windir%\System32\SystemPropertiesComputerName.exe
+Tablet PC Settings - control /name Microsoft.TabletPCSettings
+Text to Speech - control /name Microsoft.TextToSpeech
+Troubleshooting - explorer shell:::{26EE0668-A00A-44D7-9371-BEB064C98683}\0\::{C58C4893-3BE0-4B45-ABB5-A63E4B8C8651}
+User Accounts - control userpasswords
+User Accounts (netplwiz) - control userpasswords2
+Windows Defender Firewall - control firewall.cpl
+Windows Features - %windir%\System32\OptionalFeatures.exe
+Windows Mobility Center - control /name Microsoft.MobilityCenter
+Work Folders - %windir%\System32\WorkFolders.exe
